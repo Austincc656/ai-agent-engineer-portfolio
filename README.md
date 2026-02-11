@@ -1,34 +1,35 @@
-# AI Agent Systems & RAG Pipelines
+# AI Agent Engineer Portfolio
 
-A portfolio repository for building **AI agents** and **Retrieval-Augmented Generation (RAG)** systems using modern agent frameworks and workflow automation.
+A curated portfolio of production-style AI agent systems built using modern LLM architectures, tool-augmented reasoning, and workflow automation.
 
-## What’s inside
-- **Agents:** ReAct + ReWOO style agents with tool use and structured reasoning flows
-- **RAG:** ingestion → indexing → retrieval → grounded generation
-- **LangGraph:** state-driven, multi-step agent workflows (branching, loops, error handling)
-- **Automation:** n8n workflows to connect agents to external services and business processes
-- **Evaluation mindset:** tracing/debugging concepts (e.g., LangSmith-style observability)
+This repository showcases practical implementations of autonomous agents, Retrieval-Augmented Generation (RAG) pipelines, multi-step reasoning systems, and API-deployed AI services.
 
-> This repo is actively developed. Projects are published incrementally as they reach demo-ready quality.
+---
 
-## Tech stack
-Python • LangChain • RAG • LangGraph • n8n • (FastAPI/Gradio planned)
+## 🚀 What This Portfolio Demonstrates
 
-## Repo structure
-- `src/agents` — agent implementations and tools
-- `src/rag` — ingestion/indexing/retrieval modules
-- `src/graphs` — LangGraph workflows
-- `workflows/n8n` — automation workflows (exports added later)
-- `docs` — architecture notes, decisions, roadmap
-- `tests` — basic smoke tests and validation
+- Tool-augmented LLM agents
+- Natural language → SQL generation
+- FastAPI deployment
+- Structured reasoning flows (ReAct-style)
+- Modular agent architecture
+- Smoke testing & validation
+- Clean Git workflow & environment isolation
+- Automation via n8n workflows
+- Scalable AI system design principles
 
-## Roadmap
-- [ ] RAG MVP: ingest docs → retrieve top-k → cite sources
-- [ ] Agent MVP: tool-use agent (calculator/web/file) + safety guardrails
-- [ ] LangGraph: multi-step workflow with retries & fallback responses
-- [ ] Demo: local UI (Gradio) or API (FastAPI)
-- [ ] Evaluation: prompts + test set + lightweight scoring
+---
 
-## How to run (placeholder)
-Setup instructions will be added as the first MVP lands.
+## 🧠 Projects
 
+### 🔹 Autonomous Data Analyst Agent
+
+An AI-powered data analyst agent that:
+
+- Converts business questions into SQL
+- Executes structured queries on SQLite
+- Formats analytical reports
+- Deploys via FastAPI
+- Follows modular tool-based architecture
+
+📁 Location:
